@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF"
+    tools:context=".ui.home.HomeFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What do you want to park?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#800000"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#800000"
+        android:layout_marginTop="20sp"/>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/booking"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ayush" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bike"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#800000"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+    android:id="@+id/bbooking"
+    android:layout_width="wrap_content"
+    android:layout_height="204dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/motar" />
+
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:text="Contact Us for more detail!"
+        />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:textColor="#800000"
+        android:text="9809630319"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:textColor="#800000"
+        android:text="Dillibazar, Kathmandu"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="25sp"
+        android:textColor="#800000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Connect with us on Social media"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="20sp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/socialf"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/facebook" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sociali"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/insta" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/socialt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/twiter" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/socialy"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/youtube" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/socialv"
+            android:layout_width="80sp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/vibers" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

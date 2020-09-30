@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ApplicationParking</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile </string>
+    <string name="menu_history">Booking History</string>
+    <string name="menu_gallery">About Us</string>
+    <string name="menu_slideshow">Location</string>
+    <string name="menu_send">Logout</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

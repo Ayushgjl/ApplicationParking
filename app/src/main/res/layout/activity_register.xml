@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20sp"
+    android:layout_marginLeft="20sp"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/camera" />
+
+    <EditText
+        android:id="@+id/etfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/etlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+
+        android:hint="Last Name"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/etUsername"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/etrepassword"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvback"/>
+
+
+</LinearLayout>
